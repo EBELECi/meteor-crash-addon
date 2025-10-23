@@ -15,13 +15,13 @@ repositories {
 }
 
 dependencies {
-    // Minecraft - UPDATED FOR 1.21.8
+    // Minecraft - 1.21.8
     minecraft "com.mojang:minecraft:1.21.8"
     mappings "net.fabricmc:yarn:1.21.8+build.1:v2"
     modImplementation "net.fabricmc:fabric-loader:0.16.9"
 
-    // Meteor - DÜZELTİLDİ: 0.6.2 yerine 0.6.0 kullan (senin dosyana göre)
-    modImplementation "meteordevelopment:meteor-client:0.6.0"
+    // Meteor - SNAPSHOT kullan
+    modImplementation "meteordevelopment:meteor-client:0.6.2-SNAPSHOT"
 }
 
 processResources {
